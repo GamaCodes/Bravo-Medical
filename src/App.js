@@ -1,13 +1,15 @@
-import logo from "./config.svg";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className="App-link">PROXIMAMENTE</p>
-        <p>Sitio en construcción</p>
+        <img src="/bravo_logotipo.svg" alt="logo" />
+        <p className="App-link">
+          <span className="red-link">Bravo </span>Medical
+        </p>
+        <p>Estamos trabajando para ti</p>
+        <p>...</p>
       </header>
     </div>
   );
